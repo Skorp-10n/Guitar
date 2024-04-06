@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: #000000;
+    line-height: 24px
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+header div a img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 15%;
+}
+
+header{
+    float: left;
+    background-color: #343434;
+    width: 99.2%;
+    padding: 0.4%;
+    margin-bottom: 35px;
+    box-shadow: 6px 0px 20px rgb(0, 0, 0);
+}
+
+header div a span{
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: white;
+}
+
+header div a span:hover{
+    color: #994b01dc;
+    transition: color 0.4s;
+}
+
+#logo{
+    float: left;
+    width: 30%;
+}
+
+#menu{
+    width: 70%;
+    float: right;
+    text-align: center;
+    padding-top: 11px;
+    font-family: 'Times New Roman', serif;
+    font-size: 22.5px;
+    font-weight: 530;
+}
+
+ol{
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: #000000;
+    line-height: 24px
+}
+
+div#menuli{
+    float: left;
+    width: 22%;
+    text-align: center;
+}
+
+div#menuli a{
+    color: white;
+}
+
+#menu div#menuli a:hover{
+    border-bottom: #ffffffdc 1px solid;
+    transition: color 0.4s;
+}
+
+#button a div#btn{
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #994b01dc;
+    float: left;
+    width: 20%;
+    padding: 5px 9px;
+    text-align: center;
+    margin-top: -5px;
+    text-shadow: #454545 0 0 2px;
+    border-bottom: 4px solid #633000dc;
+    color: white;
+}
+
+#button a:hover div#btn{
+    margin-top: -3px;
+    border-bottom: 2px solid #633000dc;
+}
+
+#button a:active div#btn{
+    margin-top: -1px;
+    border-bottom: 0px solid #633000dc;
+}
+
+/*Конец стилей для шапки сайта*/
+
+/*Футер сайта*/
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+footer{
+    float: left;
+    background-color: #343434;
+    width: 99.2%;
+    padding: 0.4%;
+    font-family: Times New Roman, serif;
+    margin-top: 35px;
+    box-shadow: 4px 0px 20px rgb(0, 0, 0);
+}
+
+#site_name{
+    color: #ffffffdc;
+    float: right;
+    font-size: 1.5em;
+    margin: auto 5%;
+}
+
+#site_name span{
+    font-family: Arial, sans-serif;
+}
+
+#rights{
+    float: left;
+    font-size: 1.1em;
+    margin: auto 5%;
+    align-items: center;
+}
+
+#rights a{
+    color: white;
+}
+
+/*Стили для сайта*/
+
+#site{
+    width: 1500px;
+    margin: 20px auto;
+    flex: 1 0 auto;
+    float: left;
+}
+
+#left{
+    width: 320px;
+    position: fixed;
+}
+
+.left a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    padding: auto 7px;
+    padding-left: 7px;
+}
+
+.left{
+    height: 60px;
+    line-height: 60px;
+    transition: all 0.3s;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 7px;
+}
+
+.left:first-child{
+    border-top: 1px solid #ccc;
+}
+
+.left:hover{
+    background-color: #afafaf;
+}
+
+.view1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    letter-spacing: 1.25px;
+    height: auto;
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.view{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    letter-spacing: 1.25px;
+    height: 60px;
+    line-height: 60px;
+    transition: all 0.3s;
+    border-bottom: 1px solid #ccc;
+}
+
+.view1 h3{
+    padding: 11px 7px;
+} 
+
+.view{
+    padding: 3px 7px;
+}
+
+.view:hover{
+    background-color: #afafaf;
+}
+
+#sitemenu{
+    width: 1080px;
+    margin: 0px 50px;
+    float: right;
+}
+
+.img{
+    width: 1080px;
+    float: right;
+    position: relative;
+    top: 15px;
+    margin-bottom: 45px;
+}
+
+#static{
+    background-color: #dbdada;
+}
+
+.static{
+    border-bottom: #ffffffdc 1px solid;
+}
+
+.choose{
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
